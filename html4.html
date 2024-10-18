@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<body>
+    <form action="submit.php" method="post">
+        <label for="name"> Adınız: </label>
+        <input type="text" id="name" name="name" placeholder="Adınızı girin.">
+        <label for="email"> E-posta:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="password">Şifre:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="gender"> Cinsiyet</label>
+        <input type="radio" id="male" name="gender"> Erkek
+        <input type="radio" id="female" name="gender"> Kadın
+        <label for="subscribe"> Abone Ol</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+        <label for="city"> Şehir seçin:</label>
+        <select name="city" id="city">
+            <option value="İstanbul">İstanbul</option>
+            <option value="İzmir"> İzmir</option>
+            <option value="Ankara"> Ankara</option>
+        </select>
+        <label for="message"> Mesajınız:</label>
+        <textarea name="message" id="message" rows="4" cols="50" placeholder="Mesajınızı girin."></textarea>
+        <button type="submit"> Gönder</button>
+    </form>
+</body>
+
+</html>

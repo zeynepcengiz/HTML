@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 80px 1fr 150px;
+    grid-gap: 20px;
+    height: 100vh;
+    grid-template-areas: 
+        "header header"
+        "sidebar main"
+        "footer footer";
+}
+
+.header{
+    grid-area: header header;
+    background-color: rgb(0, 64, 43);
+    color: aliceblue;
+    text-align: center;
+}
+
+.sidebar{
+    grid-area: sidebar main;
+    background-color: rgb(0, 0, 60);
+    padding: 20px;
+    color: aliceblue;
+}
+
+.main{
+    grid-area: main;
+    background-color: rgb(61, 0, 118);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+    color: aliceblue;
+}
+
+.widgets{
+    background-color: rgb(54, 0, 0);
+    padding: 30px;
+    color: aliceblue;
+
+}
+
+.footer{
+    grid-area: footer footer;
+    background-color: rgb(39, 59, 0);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    color: aliceblue;
+
+}

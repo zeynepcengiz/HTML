@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+#header {
+    background-color: #2c0000;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.title {
+    font-size: 36px;
+    margin: 0;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+}
+
+/* "." class için, "#" ise id için yazdığımız başlıklar için kullanılır. */
+
+.nav-list li {
+    display: inline-block;
+    margin: 10px;
+}
+
+#About {
+    padding: 20px;
+}
+
+#Project {
+    padding: 20px;
+}
+
+.Project-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-btn {
+    background-color: rgb(0, 44, 44);
+    color: beige;
+    border: none;
+    padding: 10px;
+}
+
+/* "hover" fare, buton üzerine geldiğinde renk değiştirmesi için kullanılır.*/
+
+.contact-btn:hover {
+    background-color: rgb(0, 75, 75);
+}
